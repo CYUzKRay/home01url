@@ -12,6 +12,9 @@
 		3737A970228D743D004194DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3737A96E228D743D004194DF /* Main.storyboard */; };
 		3737A972228D743E004194DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3737A971228D743E004194DF /* Assets.xcassets */; };
 		3737A975228D743E004194DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3737A973228D743E004194DF /* LaunchScreen.storyboard */; };
+		3737A97D228D786C004194DF /* MusiceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737A97C228D786C004194DF /* MusiceTVC.swift */; };
+		3737A981228D78A0004194DF /* musiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737A980228D78A0004194DF /* musiceResult.swift */; };
+		3737A983228D78C9004194DF /* MusiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737A982228D78C9004194DF /* MusiceCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3737A971228D743E004194DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3737A974228D743E004194DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3737A976228D743E004194DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3737A97C228D786C004194DF /* MusiceTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiceTVC.swift; sourceTree = "<group>"; };
+		3737A980228D78A0004194DF /* musiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musiceResult.swift; sourceTree = "<group>"; };
+		3737A982228D78C9004194DF /* MusiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiceCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				3737A96A228D743D004194DF /* AppDelegate.swift */,
 				3737A96C228D743D004194DF /* ViewController.swift */,
 				3737A96E228D743D004194DF /* Main.storyboard */,
+				3737A97C228D786C004194DF /* MusiceTVC.swift */,
+				3737A982228D78C9004194DF /* MusiceCell.swift */,
+				3737A980228D78A0004194DF /* musiceResult.swift */,
 				3737A971228D743E004194DF /* Assets.xcassets */,
 				3737A973228D743E004194DF /* LaunchScreen.storyboard */,
 				3737A976228D743E004194DF /* Info.plist */,
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3737A96D228D743D004194DF /* ViewController.swift in Sources */,
+				3737A97D228D786C004194DF /* MusiceTVC.swift in Sources */,
+				3737A981228D78A0004194DF /* musiceResult.swift in Sources */,
+				3737A983228D78C9004194DF /* MusiceCell.swift in Sources */,
 				3737A96B228D743D004194DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
